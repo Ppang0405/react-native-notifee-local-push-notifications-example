@@ -6,7 +6,9 @@
     "android": "expo run:android",
     "prebuild": "expo prebuild",
     "ios": "expo run:ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "build:android": "eas build --platform android --profile preview",
+    "build:ios": "eas build --platform ios --profile preview --auto-submit"
   },
   "dependencies": {
     "@notifee/react-native": "^7.3.0",

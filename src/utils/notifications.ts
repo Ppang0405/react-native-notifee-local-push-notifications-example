@@ -47,12 +47,12 @@ export const reminderNotification: Notification = {
   android: {
     channelId,
     // smallIcon: "ic_stat_name",
-    // largeIcon:
-    //   "https://media.comicbook.com/2020/06/netflix-ozark-final-season-4-1226955.jpeg",
-    // actions: [
-    //   { pressAction: { id: "dismiss" }, title: "Dismiss" },
-    //   { pressAction: { id: "default" }, title: "See more" },
-    // ],
+    largeIcon:
+      "https://media.comicbook.com/2020/06/netflix-ozark-final-season-4-1226955.jpeg",
+    actions: [
+      { pressAction: { id: "dismiss" }, title: "Dismiss" },
+      { pressAction: { id: "default" }, title: "See more" },
+    ],
   },
   ios: {
     categoryId: "reminder",
